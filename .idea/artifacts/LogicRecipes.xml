@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LogicRecipes">
+    <output-path>$USER_HOME$/Desktop/Server/plugins</output-path>
+    <root id="archive" name="LogicRecipes.jar">
+      <element id="module-output" name="LogicRecipes" />
+    </root>
+  </artifact>
+</component>
