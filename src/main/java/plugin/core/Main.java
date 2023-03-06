@@ -21,11 +21,15 @@ public final class Main extends JavaPlugin {
         Bukkit.getConsoleSender().sendMessage("Logic Recipes está desactivado");
     }
 
-    public void setRecipes(){
+    public void setRecipes() {
         CraftingRecipes craftingRecipes = new CraftingRecipes(this);
 
         List<Recipe> recipes = new ArrayList<>();
         recipes.add(craftingRecipes.getSaddle());
+        craftingRecipes.getCopperTools().forEach(recipe -> recipes.add(recipe));
+        recipes.add(craftingRecipes.getBread());
+        craftingRecipes.getBlocksFromSlab().forEach(recipe -> recipes.add(recipe));
+        craftingRecipes.getBlocksFromStairs().forEach(recipe -> recipes.add(recipe));
 
         recipes.forEach(recipe -> Bukkit.addRecipe(recipe));
     }

@@ -1,0 +1,58 @@
+private Map<Material, Material> getSlabsBlocks() {
+
+        Map<Material, Material> blocks = new HashMap<>();
+        blocks.put(Material.OAK_PLANKS, Material.OAK_STAIRS);
+        blocks.put(Material.SPRUCE_PLANKS, Material.SPRUCE_STAIRS);
+        blocks.put(Material.BIRCH_PLANKS, Material.BIRCH_STAIRS);
+        blocks.put(Material.JUNGLE_PLANKS, Material.JUNGLE_STAIRS);
+        blocks.put(Material.ACACIA_PLANKS, Material.ACACIA_STAIRS);
+        blocks.put(Material.DARK_OAK_PLANKS, Material.DARK_OAK_STAIRS);
+        blocks.put(Material.MANGROVE_PLANKS, Material.MANGROVE_STAIRS);
+        blocks.put(Material.CRIMSON_PLANKS, Material.CRIMSON_STAIRS);
+        blocks.put(Material.WARPED_PLANKS, Material.WARPED_STAIRS);
+        blocks.put(Material.STONE, Material.STONE_STAIRS);
+        blocks.put(Material.COBBLESTONE, Material.COBBLESTONE_STAIRS);
+        blocks.put(Material.MOSSY_COBBLESTONE, Material.MOSSY_COBBLESTONE_STAIRS);
+        blocks.put(Material.SMOOTH_STONE, Material.SMOOTH_STONE_STAIRS);
+        blocks.put(Material.STONE_BRICKS, Material.STONE_BRICK_STAIRS);
+        blocks.put(Material.MOSSY_STONE_BRICKS, Material.MOSSY_STONE_BRICK_STAIRS);
+        blocks.put(Material.GRANITE, Material.GRANITE_STAIRS);
+        blocks.put(Material.POLISHED_GRANITE, Material.POLISHED_GRANITE_STAIRS);
+        blocks.put(Material.DIORITE, Material.DIORITE_STAIRS);
+        blocks.put(Material.POLISHED_DIORITE, Material.POLISHED_DIORITE_STAIRS);
+        blocks.put(Material.ANDESITE, Material.ANDESITE_STAIRS);
+        blocks.put(Material.POLISHED_ANDESITE, Material.POLISHED_ANDESITE_STAIRS);
+        blocks.put(Material.COBBLED_DEEPSLATE, Material.COBBLED_DEEPSLATE_STAIRS);
+        blocks.put(Material.POLISHED_DEEPSLATE, Material.POLISHED_DEEPSLATE_STAIRS);
+        blocks.put(Material.DEEPSLATE_BRICKS, Material.DEEPSLATE_BRICK_STAIRS);
+        blocks.put(Material.DEEPSLATE_TILES, Material.DEEPSLATE_TILE_STAIRS);
+        blocks.put(Material.BRICKS, Material.BRICK_STAIRS);
+        blocks.put(Material.MUD_BRICKS, Material.MUD_BRICK_STAIRS);
+        blocks.put(Material.SANDSTONE, Material.SANDSTONE_STAIRS);
+        blocks.put(Material.SMOOTH_SANDSTONE, Material.SMOOTH_SANDSTONE_STAIRS);
+        blocks.put(Material.CUT_SANDSTONE, Material.CUT_SANDSTONE_STAIRS);
+        blocks.put(Material.RED_SANDSTONE, Material.RED_SANDSTONE_STAIRS);
+        blocks.put(Material.SMOOTH_RED_SANDSTONE, Material.SMOOTH_RED_SANDSTONE_STAIRS);
+        blocks.put(Material.CUT_RED_SANDSTONE, Material.CUT_RED_SANDSTONE_STAIRS);
+        blocks.put(Material.PRISMARINE, Material.PRISMARINE_STAIRS);
+        blocks.put(Material.PRISMARINE_BRICKS, Material.PRISMARINE_BRICK_STAIRS);
+        blocks.put(Material.DARK_PRISMARINE, Material.DARK_PRISMARINE_STAIRS);
+        blocks.put(Material.NETHER_BRICKS, Material.NETHER_BRICK_STAIRS);
+        blocks.put(Material.RED_NETHER_BRICKS, Material.RED_NETHER_BRICK_STAIRS);
+        blocks.put(Material.BLACKSTONE, Material.BLACKSTONE_STAIRS);
+        blocks.put(Material.POLISHED_BLACKSTONE, Material.POLISHED_BLACKSTONE_STAIRS);
+        blocks.put(Material.POLISHED_BLACKSTONE_BRICKS, Material.POLISHED_BLACKSTONE_BRICK_STAIRS);
+        blocks.put(Material.END_STONE_BRICKS, Material.END_STONE_BRICK_STAIRS);
+        blocks.put(Material.PURPUR_BLOCK, Material.PURPUR_STAIRS);
+        blocks.put(Material.QUARTZ, Material.QUARTZ_STAIRS);
+        blocks.put(Material.SMOOTH_QUARTZ, Material.SMOOTH_QUARTZ_STAIRS);
+        blocks.put(Material.CUT_COPPER, Material.CUT_COPPER_STAIRS);
+        blocks.put(Material.EXPOSED_CUT_COPPER, Material.EXPOSED_CUT_COPPER_STAIRS);
+        blocks.put(Material.WEATHERED_CUT_COPPER, Material.WEATHERED_CUT_COPPER_STAIRS);
+        blocks.put(Material.OXIDIZED_CUT_COPPER, Material.OXIDIZED_CUT_COPPER_STAIRS);
+        blocks.put(Material.WAXED_CUT_COPPER, Material.WAXED_CUT_COPPER_STAIRS);
+        blocks.put(Material.WAXED_WEATHERED_CUT_COPPER, Material.WAXED_WEATHERED_CUT_COPPER_STAIRS);
+        blocks.put(Material.WAXED_OXIDIZED_CUT_COPPER, Material.WAXED_OXIDIZED_CUT_COPPER_STAIRS);
+
+        return blocks;
+    }
